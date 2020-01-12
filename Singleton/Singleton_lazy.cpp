@@ -20,7 +20,7 @@ private:
 private:
     static Singleton_lazy *m_instance;
     static std::mutex m_mutex;
-}
+};
 
 // 初始化静态成员变量
 Singleton_lazy *Singleton_lazy::m_instance = NULL;
